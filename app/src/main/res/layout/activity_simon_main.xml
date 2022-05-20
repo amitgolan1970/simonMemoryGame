@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SimonMainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simon game"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp" android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/btnCoardId0"
+            style="@style/coards_style"
+            android:text="1"
+            android:background="#0729d6"/>
+
+        <Button
+            android:id="@+id/btnCoardId1"
+            style="@style/coards_style"
+            android:text="2"
+            android:background="#d61f07"/>
+
+        <Button
+            android:id="@+id/btnCoardId2"
+            style="@style/coards_style"
+            android:text="3"
+            android:background="#d607ba"/>
+
+        <Button
+            android:id="@+id/btnCoardId3"
+            style="@style/coards_style"
+            android:text="4"
+            android:background="#F9D317"/>
+
+        <Button
+            android:id="@+id/btnCoardId4"
+            style="@style/coards_style"
+            android:text="5"
+            android:background="#009688"/>
+
+    </LinearLayout>
+
+    --tmp section for dev--
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:hint="repeat"
+        android:id="@+id/btnTryId"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvTmpInfo" android:visibility="invisible"
+        android:hint="Info"
+        />
+
+</LinearLayout>
